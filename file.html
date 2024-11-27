@@ -1,0 +1,31 @@
+<figure>
+  <img
+    id="rotatingImage"
+    src="https://scriptchaser1337.github.io/htmlheadache/coolduck.jpg"
+    alt="Placeholder image"
+  />
+  <figcaption>what kind of HTML tag am i?</figcaption>
+</figure>
+
+<blockquote>
+  "if you cannot click the square, simply spinthesquare() -cfc"
+</blockquote>
+
+<script>
+  let rotation = 0;
+  const imageElement = document.getElementById("rotatingImage");
+
+  setInterval(() => {
+    rotation += 1.8;
+    imageElement.style.transform = `rotate(${rotation}deg)`;
+  }, 1);
+</script>
+
+<figure>
+  <img
+    id="movingImage"
+    src="https://scriptchaser1337.github.io/htmlheadache/coolduck.jpg"
+    alt="Placeholder image"
+  />
+  <figcaption>what kind of HTML tag am i?</figcaption>
+</figure>
